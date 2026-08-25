@@ -8,4 +8,8 @@ wheels/
 
 # Virtual environments
 .venv
-.env
+.env.*
+!.env.example
+.pytest_cache/
+/deals.db*
+.DS_Store

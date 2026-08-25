@@ -4,6 +4,8 @@ This project explores **Human in the Loop (HITL)** workflows with LangGraph. The
 
 When the result falls between the policy thresholds, the workflow is interrupted for human review. The reviewer receives an LLM-generated analysis, provides a decision and rationale, and the system then produces the final investment memorandum.
 
+This project was also built as a **hands-on way to strengthen my Python skills** while learning AI Engineering concepts such as stateful workflows, routing, persistence, testing, and human-in-the-loop orchestration.
+
 ## LangGraph workflow
 
 ```mermaid
